@@ -21,7 +21,7 @@ var (
 		prometheus.GaugeOpts{
 			Namespace: "file_exporter",
 			Subsystem: "directory",
-			Name:      "get_directory_size",
+			Name:      "get_size",
 			Help:      "Size of directory in bytes",
 		},
 	)
